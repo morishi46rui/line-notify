@@ -47,16 +47,6 @@ http://localhost:8080
 2. メッセージがPOSTリクエストで/sendエンドポイントに送信されます。
 3. サーバーはリクエストを処理し、.envファイルに設定されたアクセストークンを使用してLINE Notifyにメッセージを送信します。
 
-## ファイル構成
-line-notify/
-│
-├── Dockerfile                 # GoアプリケーションのためのDockerfile
-├── docker-compose.yml          # Docker Composeの設定ファイル
-├── go.mod                      # Goモジュールの設定ファイル
-├── go.sum                      # Goモジュールの依存関係ファイル
-├── main.go                     # メインのGoアプリケーションファイル
-└── .env                        # 環境変数の設定ファイル (.gitには含まれません)
-
 ## 環境変数
 このアプリケーションでは、以下の環境変数を使用します。
 - LINE_NOTIFY_ACCESS_TOKEN: LINE Notify APIのトークン
