@@ -1,0 +1,11 @@
+services:
+ app:
+  build:
+   context: .
+   dockerfile: Dockerfile
+  container_name: line-notify-app
+  env_file:
+   - .env
+  ports:
+   - "8080:8080"
+  restart: always
