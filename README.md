@@ -16,7 +16,7 @@ Go言語で作成されており、Dockerを使用して簡単にセットアッ
 ## セットアップ手順
 
 ### 1. リポジトリをクローン
-git clone https://github.com/your-repo/line-notify.git
+git clone https://github.com/morishi46rui/line-notify.git
 cd line-notify
 
 ### 2. LINE Notifyのアクセストークンの取得
